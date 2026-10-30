@@ -1,5 +1,8 @@
 # ulf-entropy-dissipation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23797833.svg)](https://doi.org/10.5281/zenodo.23797833)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Analysis code for **Ground-magnetometer entropy as a broadband indicator of magnetosphere–ionosphere
 energy dissipation** (Fang & Zou, submitted to *Entropy*, MDPI).
 
@@ -107,5 +110,11 @@ MIT — see `LICENSE`. The data are released under CC BY 4.0.
 > Fang, S.; Zou, Z. *Ground-magnetometer entropy as a broadband indicator of magnetosphere–ionosphere
 > energy dissipation*. Submitted to Entropy (MDPI), 2026.
 
-For the numbers, cite the dataset (`10.57760/sciencedb.space.0034c`); for the pipeline, cite this
-repository. A versioned archive DOI will be minted at release; `CITATION.cff` carries the metadata.
+For the numbers, cite the dataset ([`10.57760/sciencedb.space.0034c`](https://doi.org/10.57760/sciencedb.space.0034c));
+for the pipeline, cite the archived software:
+
+> Fang, S.; Zou, Z. *Analysis code for ground-magnetometer ULF entropy and dissipation indicators*,
+> v1.0.0. Zenodo, 2026. <https://doi.org/10.5281/zenodo.23797833>
+
+The concept DOI [`10.5281/zenodo.23797832`](https://doi.org/10.5281/zenodo.23797832) always resolves to
+the latest version; the version DOI above pins `v1.0.0`, which is what the paper cites.

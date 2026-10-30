@@ -6,6 +6,13 @@ date-released: 2026-10-30
 license: MIT
 type: software
 repository-code: "https://github.com/sfang32/ulf-entropy-dissipation"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23797833
+    description: "Version DOI (v1.0.0)"
+  - type: doi
+    value: 10.5281/zenodo.23797832
+    description: "Concept DOI (all versions)"
 keywords:
   - ULF waves
   - entropy
