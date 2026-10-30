@@ -1,0 +1,85 @@
+<mxGraphModel dx="1105" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="920" pageHeight="760" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Section titles -->
+    <mxCell id="t1" value="1  Observations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontStyle=1;fontSize=15;fontColor=#1F4E79;" vertex="1" parent="1">
+      <mxGeometry x="40" y="45" width="200" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="t2" value="2  Preprocessing &amp; bands" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontStyle=1;fontSize=15;fontColor=#1F4E79;" vertex="1" parent="1">
+      <mxGeometry x="40" y="210" width="260" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="t3" value="3  Measurements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontStyle=1;fontSize=15;fontColor=#1F4E79;" vertex="1" parent="1">
+      <mxGeometry x="40" y="375" width="200" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="t4" value="4  Truth values" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontStyle=1;fontSize=15;fontColor=#1F4E79;" vertex="1" parent="1">
+      <mxGeometry x="520" y="45" width="200" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="t5" value="5  Statistics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontStyle=1;fontSize=15;fontColor=#1F4E79;" vertex="1" parent="1">
+      <mxGeometry x="520" y="210" width="200" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="t6" value="6  Screening &amp; outcome" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;fontStyle=1;fontSize=15;fontColor=#1F4E79;" vertex="1" parent="1">
+      <mxGeometry x="520" y="350" width="260" height="25" as="geometry" />
+    </mxCell>
+
+    <!-- Left column blocks -->
+    <mxCell id="b1" value="&lt;b&gt;Data sources&lt;/b&gt;&lt;br&gt;Phase-I: 9 st, 1 Hz, 2011&amp;#8211;2024&lt;br&gt;Phase-II: 28 st, 1 Hz, 2025&amp;#8211;2026&lt;br&gt;CARISMA: 23 st, 1 Hz, 2015" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;fontColor=#1A1A1A;spacingLeft=10;spacingRight=10;spacingTop=8;spacingBottom=8;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="40" y="75" width="380" height="110" as="geometry" />
+    </mxCell>
+
+    <mxCell id="b2" value="&lt;b&gt;Preprocessing &amp;amp; band decomposition&lt;/b&gt;&lt;br&gt;10-min non-overlapping windows&lt;br&gt;AACGM-v2 magnetic latitude&lt;br&gt;10th-order Butterworth: Pc3 / Pc4 / Pc5 / broadband" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;fontColor=#1A1A1A;spacingLeft=10;spacingRight=10;spacingTop=8;spacingBottom=8;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="40" y="240" width="380" height="110" as="geometry" />
+    </mxCell>
+
+    <mxCell id="b3" value="&lt;b&gt;Per-window measurements&lt;/b&gt;&lt;br&gt;Entropy battery (11 independent measures)&lt;br&gt;Band energy &lt;i&gt;E&lt;/i&gt;&lt;sub&gt;b&lt;/sub&gt; = &amp;#10216;&amp;#948;&lt;i&gt;B&lt;/i&gt;&lt;sub&gt;b&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;&amp;#10217;  [nT&lt;sup&gt;2&lt;/sup&gt;]&lt;br&gt;Dissipation &lt;i&gt;P&lt;/i&gt;&lt;sub&gt;b&lt;/sub&gt; = &lt;i&gt;E&lt;/i&gt;&lt;sub&gt;b&lt;/sub&gt; / (&amp;#956;&lt;sub&gt;0&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;&amp;#931;&lt;sub&gt;P&lt;/sub&gt;)  [W m&lt;sup&gt;&amp;#8722;2&lt;/sup&gt;]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;fontColor=#1A1A1A;spacingLeft=10;spacingRight=10;spacingTop=8;spacingBottom=8;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="40" y="405" width="380" height="120" as="geometry" />
+    </mxCell>
+
+    <mxCell id="bnotes" value="All three networks are analysed at 1 Hz in 10-min (600 s) windows." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontSize=10;fontColor=#555555;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;arcSize=6;" vertex="1" parent="1">
+      <mxGeometry x="40" y="555" width="380" height="45" as="geometry" />
+    </mxCell>
+
+    <!-- Right column blocks -->
+    <mxCell id="b4a" value="&lt;b&gt;OMNI upstream drivers&lt;/b&gt;&lt;br&gt;AE, SYM-H, PC indices&lt;br&gt;solar-wind coupling &lt;i&gt;Q&lt;/i&gt;&lt;sub&gt;sw&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;fontColor=#1A1A1A;spacingLeft=10;spacingRight=10;spacingTop=8;spacingBottom=8;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="520" y="75" width="175" height="110" as="geometry" />
+    </mxCell>
+
+    <mxCell id="b4b" value="&lt;b&gt;Joule heating (Swarm)&lt;/b&gt;&lt;br&gt;500-km high-pass MAG, 1 Hz&lt;br&gt;&lt;i&gt;j&lt;/i&gt;&lt;sub&gt;&amp;#8741;&lt;/sub&gt; = (1/&amp;#956;&lt;sub&gt;0&lt;/sub&gt;) d&lt;i&gt;B&lt;/i&gt;&lt;sub&gt;E&lt;/sub&gt;/d&lt;i&gt;s&lt;/i&gt;&lt;br&gt;&lt;i&gt;Q&lt;/i&gt;&lt;sub&gt;J&lt;/sub&gt; = &lt;i&gt;j&lt;/i&gt;&lt;sub&gt;&amp;#8741;&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; / &amp;#931;&lt;sub&gt;P&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;fontColor=#1A1A1A;spacingLeft=10;spacingRight=10;spacingTop=8;spacingBottom=8;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="725" y="75" width="175" height="110" as="geometry" />
+    </mxCell>
+
+    <mxCell id="b5" value="&lt;b&gt;Correlation structure&lt;/b&gt;&lt;br&gt;Spearman &lt;i&gt;&amp;#961;&lt;/i&gt;(metric, log &lt;i&gt;E&lt;/i&gt;&lt;sub&gt;b&lt;/sub&gt;)&lt;br&gt;partial &lt;i&gt;&amp;#961;&lt;/i&gt;(metric, log &lt;i&gt;P&lt;/i&gt;&lt;sub&gt;b&lt;/sub&gt; | log &lt;i&gt;E&lt;/i&gt;&lt;sub&gt;b&lt;/sub&gt;)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F4F8;strokeColor=#6BA8A8;fontSize=12;fontColor=#1A1A1A;spacingLeft=10;spacingRight=10;spacingTop=8;spacingBottom=8;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="520" y="240" width="380" height="90" as="geometry" />
+    </mxCell>
+
+    <mxCell id="b6" value="&lt;b&gt;Reproducibility gates&lt;/b&gt;&lt;br&gt;G1  sign across all data sets&lt;br&gt;G2  one sign across every station&lt;br&gt;G3  |partial &lt;i&gt;&amp;#961;&lt;/i&gt;| &amp;#8805; 0.2 (band energy partialled out)&lt;br&gt;&lt;br&gt;&lt;b&gt;Outcome&lt;/b&gt;&lt;br&gt;SampEn, SE&lt;sub&gt;full&lt;/sub&gt;: pass all gates&lt;br&gt;WPE, CH&lt;sub&gt;C&lt;/sub&gt;: pass G1&amp;#8211;G2 only&lt;br&gt;Tsallis, IR&lt;sub&gt;ordinal&lt;/sub&gt;: excluded&lt;br&gt;11 independent measures retained" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;fontColor=#1A1A1A;spacingLeft=10;spacingRight=10;spacingTop=8;spacingBottom=8;arcSize=8;" vertex="1" parent="1">
+      <mxGeometry x="520" y="380" width="380" height="220" as="geometry" />
+    </mxCell>
+
+    <!-- Edges -->
+    <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A4A4A;strokeWidth=1.5;" edge="1" parent="1" source="b1" target="b2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A4A4A;strokeWidth=1.5;" edge="1" parent="1" source="b2" target="b3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A4A4A;strokeWidth=1.5;" edge="1" parent="1" source="b4a" target="b5">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A4A4A;strokeWidth=1.5;" edge="1" parent="1" source="b4b" target="b5">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A4A4A;strokeWidth=1.5;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="b3" target="b5">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="450" y="465" />
+          <mxPoint x="450" y="285" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A4A4A;strokeWidth=1.5;" edge="1" parent="1" source="b5" target="b6">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

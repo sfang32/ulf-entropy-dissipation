@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both the article and the companion dataset."
+title: "Analysis code for ground-magnetometer ULF entropy and dissipation indicators"
+version: 1.0.0
+date-released: 2026-10-30
+license: MIT
+type: software
+repository-code: "https://github.com/sfang32/ulf-entropy-dissipation"
+keywords:
+  - ULF waves
+  - entropy
+  - dissipation rate
+  - magnetosphere-ionosphere coupling
+  - ground magnetometer
+  - AACGM
+authors:
+  - family-names: Fang
+    given-names: Shaofeng
+    affiliation: "National Space Science Center / National Space Science Data Center, Chinese Academy of Sciences"
+  - family-names: Zou
+    given-names: Ziming
+    affiliation: "National Space Science Center, Chinese Academy of Sciences"
+references:
+  - type: dataset
+    title: "Ground-magnetometer ULF entropy and dissipation indicators (2011–2026)"
+    doi: 10.57760/sciencedb.space.0034c
+    authors:
+      - family-names: Fang
+        given-names: Shaofeng
+      - family-names: Zou
+        given-names: Ziming
+  - type: article
+    title: "Ground-magnetometer entropy as a broadband indicator of magnetosphere-ionosphere energy dissipation"
+    authors:
+      - family-names: Fang
+        given-names: Shaofeng
+      - family-names: Zou
+        given-names: Ziming
+    journal: Entropy
+    year: 2026

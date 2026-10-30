@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Outputs produced by the scripts
+*.png
+*.pdf
+*.svg
+!figures/*.drawio
+output/
+results/
+data/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# SuperMAG / archive pulls
+supermag_e5b/
+*.nc
+*.cdf
