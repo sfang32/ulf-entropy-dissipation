@@ -62,7 +62,7 @@ def main():
     ax[1].axvline(0, color="k", lw=0.9)
     ax[1].set_yticks(y, order)
     ax[1].set_xlabel(r"Spearman $\rho$")
-    ax[1].set_title("(b) With an AE-modulated $\Sigma_P$ the energy\n"
+    ax[1].set_title("(b) With an AE-modulated $\\Sigma_P$ the energy\n"
                     "and dissipation axes separate")
     ax[1].legend(loc="upper center", bbox_to_anchor=(0.5, -0.30),
                 ncol=2, frameon=False)

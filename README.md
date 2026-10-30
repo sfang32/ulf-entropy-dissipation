@@ -74,8 +74,8 @@ Order: `core/run_multiband.py` (per-window products) → `experiments/*` (statis
 | Fig. | Script | Reads |
 |---|---|---|
 | 1 | `figures/fig1-workflow.drawio` → `drawio2svg.py` | — (schematic) |
-| 2 | `experiments/fig_replication.py` | per-window CSVs |
-| 3 | `experiments/fig_gate3_years.py` | per-window CSVs, 16 data sets |
+| 2 | `figures/fig_replication.py` | per-window CSVs |
+| 3 | `figures/fig_gate3_years.py` | per-window CSVs, 16 data sets |
 | 4 | `experiments/e2_sigma.py` / `figures/e2_sigma_plotonly.py` | `e2_sigma.csv` |
 | 5, 10 | `experiments/mb_summary.py` | per-window CSVs |
 | 6 | `experiments/plot_multiband.py` | one station-year |
